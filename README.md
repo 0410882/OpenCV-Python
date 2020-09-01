@@ -15,7 +15,7 @@
 ### What improved 改進部分
 * 影像處理：
 我們不需要針對整張圖計算車子流量及方向，因此在用YOLO 偵測前，將取得的frame中熱區以外的區域都覆蓋掉，以提升檢測的速度
-* 車輛偵測定位及分類:
+* 車輛偵測定位及分類: 
 從YOLOv3升級為YOLOv4，直接使用YOLO提供的pre-trained yolov4.weights來進行車輛的定位偵測及分類。因為這個pre-trained model是使用Coco dataset所訓練，可偵測多達80種物件，其中也包含了數種車輛類型，如：car、truck、bus、bicycle、motorbike等，打算自行訓練只辨識車輛的模型，不過需要用到GPU才行。
 YOLOv3和YOLOv4速度對比如下圖：
 ![YOLOv3 and YOLOv4](https://user-images.githubusercontent.com/4096485/82835867-f1c62380-9ecd-11ea-9134-1598ed2abc4b.png)
@@ -26,9 +26,9 @@ YOLOv3和YOLOv4速度對比如下圖：
 ### Sample output video
 見文件夾 video_out
 ### 參考資料
-[YOLOv4]( https://github.com/AlexeyAB/darknet)
-[如何計算道路及十字路口的車流](https://chtseng.wordpress.com/2018/11/03/%E5%A6%82%E4%BD%95%E8%A8%88%E7%AE%97%E9%81%93%E8%B7%AF%E5%8F%8A%E5%8D%81%E5%AD%97%E8%B7%AF%E5%8F%A3%E7%9A%84%E8%BB%8A%E6%B5%81/)
-[Keras-YOLOv4]( https://github.com/miemie2013/Keras-YOLOv4)
+[YOLOv4]( https://github.com/AlexeyAB/darknet)  
+[如何計算道路及十字路口的車流](https://chtseng.wordpress.com/2018/11/03/%E5%A6%82%E4%BD%95%E8%A8%88%E7%AE%97%E9%81%93%E8%B7%AF%E5%8F%8A%E5%8D%81%E5%AD%97%E8%B7%AF%E5%8F%A3%E7%9A%84%E8%BB%8A%E6%B5%81/)  
+[Keras-YOLOv4]( https://github.com/miemie2013/Keras-YOLOv4)  
 
 ## Second Part —— Traffic Light Control 信號燈控制
 undone
