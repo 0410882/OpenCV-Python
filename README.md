@@ -11,7 +11,7 @@
 ### Environment configuration 環境配置
 > my environment : Windows 10 + Python 3.7.7 + OpenCV 4.4.0 + Tensorflow 2.1.0 + YOLOv4
 ### How to use on the command line
-> python demo_video.py
+> python demo_video.py --video=car.mp4
 ### What improved 改進部分
 * 影像處理：   
 我們不需要針對整張圖計算車子流量及方向，因此在用YOLO 偵測前，將取得的frame中熱區以外的區域都覆蓋掉，以提升檢測的速度
