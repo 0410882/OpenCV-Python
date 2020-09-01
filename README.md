@@ -13,13 +13,13 @@
 ### How to use on the command line
 > python demo_video.py
 ### What improved 改進部分
-* 影像處理： 
+* 影像處理：   
 我們不需要針對整張圖計算車子流量及方向，因此在用YOLO 偵測前，將取得的frame中熱區以外的區域都覆蓋掉，以提升檢測的速度
 * 車輛偵測定位及分類:  
 從YOLOv3升級為YOLOv4，直接使用YOLO提供的pre-trained yolov4.weights來進行車輛的定位偵測及分類。因為這個pre-trained model是使用Coco dataset所訓練，可偵測多達80種物件，其中也包含了數種車輛類型，如：car、truck、bus、bicycle、motorbike等，打算自行訓練只辨識車輛的模型，不過需要用到GPU才行。
 YOLOv3和YOLOv4速度對比如下圖：
 ![YOLOv3 and YOLOv4](https://user-images.githubusercontent.com/4096485/82835867-f1c62380-9ecd-11ea-9134-1598ed2abc4b.png)
-* 提高偵測的精度： 
+* 提高偵測的精度：   
 當我們得到車輛的類型以及位置之後，接著，我們將每一個frame取得的車輛與上一個frame的車輛進行比對，計算該車中心點與上一個frame所有車輛的中心點距離最短是那一台。
 由於我們的熱區是定義於道路中間位置，因此理論上該熱區不會有突然新出現的車輛，每一台車應該能找到其一個frame的所在位置。
 經由上下frame得到該車的行徑方向，並將該方向的車輛數目加1。
