@@ -1,12 +1,6 @@
 #! /usr/bin/env python
 # coding=utf-8
-# ================================================================
-#
-#   Author      : miemie2013
-#   Created date: 2020-06-03 15:35:27
-#   Description : keras_yolov4
-#
-# ================================================================
+
 from collections import deque
 import datetime
 import cv2
