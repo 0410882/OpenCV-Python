@@ -24,8 +24,8 @@ YOLOv3和YOLOv4速度對比如下圖：
 由於我們的熱區是定義於道路中間位置，因此理論上該熱區不會有突然新出現的車輛，每一台車應該能找到其一個frame的所在位置。
 經由上下frame得到該車的行徑方向，並將該方向的車輛數目加1。
 ### Sample output video 範例輸出視頻
-[車流計算demo1](https://youtu.be/lHy2d0_w_XU)
-[車流計算demo2]（https://youtu.be/TYbNcwF694Y）
+[車流計算demo1](https://youtu.be/lHy2d0_w_XU)  
+[車流計算demo2](https://youtu.be/TYbNcwF694Y)  
 ### Reference 參考資料
 [YOLOv4]( https://github.com/AlexeyAB/darknet)  
 [如何計算道路及十字路口的車流](https://chtseng.wordpress.com/2018/11/03/%E5%A6%82%E4%BD%95%E8%A8%88%E7%AE%97%E9%81%93%E8%B7%AF%E5%8F%8A%E5%8D%81%E5%AD%97%E8%B7%AF%E5%8F%A3%E7%9A%84%E8%BB%8A%E6%B5%81/)  
