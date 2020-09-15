@@ -1,4 +1,4 @@
-# OpenCV-Python project —— Intelligent Traffic Light 智慧交通信號燈
+# Cross disciplinary Project I —— Intelligent Traffic Light 智慧交通信號燈
 
 #### Goal 目的：
 > By setting up cameras at the intersection, the traffic flow in various directions is calculated, so as to adjust the length of time the traffic lights are in different directions and improve traffic congestion.
