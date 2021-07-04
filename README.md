@@ -89,6 +89,7 @@ YOLOv3和YOLOv4速度對比如下圖：
 至於每輛車的最大等待時長，和兩個方向上新增車輛的多少有關
 若是每个方向上等概率的新增車輛，則每个方向上車子的最大等待時長也會比
 較平均
+<img src = "https://github.com/Lvma-0323/Cross-disciplinary-Projects/blob/master/situation1.PNG" width = "375">
 ![Result](https://github.com/Lvma-0323/Cross-disciplinary-Projects/blob/master/situation1.PNG)
 ![Result](https://github.com/Lvma-0323/Cross-disciplinary-Projects/blob/master/output1.PNG)
 
