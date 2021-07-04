@@ -89,15 +89,17 @@ YOLOv3和YOLOv4速度對比如下圖：
 至於每輛車的最大等待時長，和兩個方向上新增車輛的多少有關
 若是每个方向上等概率的新增車輛，則每个方向上車子的最大等待時長也會比
 較平均
+
 <img src = "https://github.com/Lvma-0323/Cross-disciplinary-Projects/blob/master/situation1.PNG" width = "375">
-![Result](https://github.com/Lvma-0323/Cross-disciplinary-Projects/blob/master/situation1.PNG)
-![Result](https://github.com/Lvma-0323/Cross-disciplinary-Projects/blob/master/output1.PNG)
+<img src = "https://github.com/Lvma-0323/Cross-disciplinary-Projects/blob/master/output1.PNG" width = "375">
 
 若是某個方向的車輛新增比較多(如東西向)，則相對應的方向(如南北向)車子的
 等待時間就會比較長
-![Result](https://github.com/Lvma-0323/Cross-disciplinary-Projects/blob/master/situation2.PNG)
-![Result](https://github.com/Lvma-0323/Cross-disciplinary-Projects/blob/master/output2.PNG)
+
+<img src = "https://github.com/Lvma-0323/Cross-disciplinary-Projects/blob/master/situation2.PNG" width = "375">
+<img src = "https://github.com/Lvma-0323/Cross-disciplinary-Projects/blob/master/output2.PNG" width = "375">
 
 若是只有一個方向新增車輛，則會出現對應方向的車輛一直無法通過的情況
-![Result](https://github.com/Lvma-0323/Cross-disciplinary-Projects/blob/master/situation3.PNG)
-![Result](https://github.com/Lvma-0323/Cross-disciplinary-Projects/blob/master/output3.PNG)
+
+<img src = "https://github.com/Lvma-0323/Cross-disciplinary-Projects/blob/master/situation3.PNG" width = "375">
+<img src = "https://github.com/Lvma-0323/Cross-disciplinary-Projects/blob/master/output3.PNG" width = "375">
