@@ -101,5 +101,5 @@ YOLOv3和YOLOv4速度對比如下圖：
 
 若是只有一個方向新增車輛，則會出現對應方向的車輛一直無法通過的情況
 
-<img src = "https://github.com/Lvma-0323/Cross-disciplinary-Projects/blob/master/situation3.PNG" width = "375">
+<img src = "https://github.com/Lvma-0323/Cross-disciplinary-Projects/blob/master/situation3.PNG" width = "315">
 <img src = "https://github.com/Lvma-0323/Cross-disciplinary-Projects/blob/master/output3.PNG" width = "375">
